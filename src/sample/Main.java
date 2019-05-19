@@ -12,6 +12,7 @@ import java.io.IOException;
 
 public class Main extends Application {
 
+    // test user
     String username = "admin";
     String password = "1234";
 
@@ -105,8 +106,6 @@ public class Main extends Application {
 
     @FXML
     private void NextBtnClicked() throws IOException {
-
-
         Stage currentWindow = (Stage) NextBtn.getScene().getWindow();
         currentWindow.close();
 
