@@ -89,7 +89,6 @@ public class ViewControllers {
 
     @FXML
     private void registerBtnClicked() throws IOException {
-
         String username = usernameTxt.getText();
         String password = passwordField.getText();
         LocalDate localdate = datePicker.getValue();
@@ -118,21 +117,17 @@ public class ViewControllers {
         avatarStage.setScene(new Scene(AvatarView, 900, 600));
         avatarStage.setTitle("Create your Avatar");
         avatarStage.show();
-
     }
 
     @FXML
     private void randomClicked()
     {
-//        Image image = new Image("./logo.PNG");
-//        imgView.setImage(image);
 
     }
 
     @FXML
-    private void NextBtnClicked() throws IOException {
-
-
+    private void NextBtnClicked() throws IOException
+    {
         Stage currentWindow = (Stage) NextBtn.getScene().getWindow();
         currentWindow.close();
 
@@ -141,13 +136,11 @@ public class ViewControllers {
         avatarStage.setScene(new Scene(AvatarView, 784, 526));
         avatarStage.setTitle("Choose your Room");
         avatarStage.show();
-
     }
 
     @FXML
-    private void GameZoneBtnClicked() throws IOException {
-
-
+    private void GameZoneBtnClicked() throws IOException
+    {
         Stage currentWindow = (Stage) GameZoneBtn.getScene().getWindow();
         currentWindow.close();
 
@@ -159,15 +152,13 @@ public class ViewControllers {
     }
 
     @FXML
-    private void SnakesBtnClicked() throws IOException {
-
+    private void SnakesBtnClicked() throws IOException
+    {
         Parent AvatarView = FXMLLoader.load(getClass().getResource("SnakeLaddersView.fxml"));
         Stage avatarStage = new Stage();
         avatarStage.setScene(new Scene(AvatarView, 900, 600));
         avatarStage.setTitle("Choose your Room");
         avatarStage.show();
-
-
     }
 
     @FXML
@@ -181,35 +172,29 @@ public class ViewControllers {
 
     }
     @FXML
-    private void quizBtnClicked() throws IOException {
-
+    private void quizBtnClicked() throws IOException
+    {
         Stage currentWindow = (Stage) GameZoneBtn.getScene().getWindow();
         currentWindow.close();
-
 
         Parent AvatarView = FXMLLoader.load(getClass().getResource("QuizCategorView.fxml"));
         Stage avatarStage = new Stage();
         avatarStage.setScene(new Scene(AvatarView, 600, 400));
         avatarStage.setTitle("Welcome to MeetHub Quiz");
         avatarStage.show();
-
-
     }
-    @FXML
-    private void startBtnClicked() throws IOException {
 
+    @FXML
+    private void startBtnClicked() throws IOException
+    {
         Stage currentWindow = (Stage) startBtn.getScene().getWindow();
         currentWindow.close();
-
 
         Parent AvatarView = FXMLLoader.load(getClass().getResource("QuizQuestionView.fxml"));
         Stage avatarStage = new Stage();
         avatarStage.setScene(new Scene(AvatarView, 600, 400));
         avatarStage.setTitle("Questions");
         avatarStage.show();
-
-
     }
-
-
+    
 }
