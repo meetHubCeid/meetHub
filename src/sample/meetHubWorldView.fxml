@@ -9,7 +9,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="784.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewControllers">
    <children>
-      <Label layoutX="257.0" layoutY="129.0" prefHeight="35.0" prefWidth="270.0" text="Choose Room to Interact" textAlignment="RIGHT" textFill="#3fcedd">
+      <Label layoutX="161.0" layoutY="157.0" prefHeight="35.0" prefWidth="270.0" text="Choose Room to Interact" textAlignment="RIGHT" textFill="#3fcedd">
          <font>
             <Font size="24.0" />
          </font>
@@ -19,20 +19,21 @@
             <Image url="@logo.PNG" />
          </image>
       </ImageView>
-      <Button fx:id="KioskBtn" layoutX="114.0" layoutY="423.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="MeetHUB Kiosk" textFill="#000000d1">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Button>
-      <Button fx:id="ChatroomBtn" layoutX="451.0" layoutY="423.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="Chat Room" textFill="#000000d1" />
-      <Button id="record-sales" fx:id="GameZoneBtn" layoutX="114.0" layoutY="192.0" mnemonicParsing="false" onAction="#GameZoneBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" stylesheets="@styles.css" text="Game Zone" textFill="#000000d1" />
-      <Button fx:id="RoomBtn" layoutX="114.0" layoutY="305.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="MeetHUB  Room" textFill="#000000d1" />
+      <Button id="record-sales" fx:id="GameZoneBtn" layoutX="44.0" layoutY="242.0" mnemonicParsing="false" onAction="#GameZoneBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" stylesheets="@styles.css" text="Game Zone" textFill="#000000d1" />
       <Label layoutX="29.0" layoutY="42.0" prefHeight="35.0" prefWidth="327.0" text="Welcome to Meethub World" textAlignment="RIGHT" textFill="#3fcedd">
          <font>
             <Font size="24.0" />
          </font>
       </Label>
-      <Button fx:id="BazzarBtn" layoutX="451.0" layoutY="305.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="MeetHUB Bazzar" textFill="#000000d1" />
-      <Button id="record-sales" fx:id="QuizBtn" layoutX="451.0" layoutY="192.0" mnemonicParsing="false" onAction="#quizBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" stylesheets="@styles.css" text="Quiz" textFill="#000000d1" />
+      <Button id="record-sales" fx:id="QuizBtn" layoutX="296.0" layoutY="242.0" mnemonicParsing="false" onAction="#quizBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" stylesheets="@styles.css" text="Quiz" textFill="#000000d1" />
+      <Button id="record-sales" fx:id="GameZoneBtn1" layoutX="44.0" layoutY="317.0" mnemonicParsing="false" onAction="#GameZoneBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="MeetHub Room" textFill="#000000d1" />
+      <Button id="record-sales" fx:id="GameZoneBtn2" layoutX="44.0" layoutY="392.0" mnemonicParsing="false" onAction="#GameZoneBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="Meethub Kiosk" textFill="#000000d1" />
+      <Button id="record-sales" fx:id="GameZoneBtn3" layoutX="296.0" layoutY="392.0" mnemonicParsing="false" onAction="#GameZoneBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="MeetHub Bazaar" textFill="#000000d1" />
+      <Button id="record-sales" fx:id="GameZoneBtn4" layoutX="296.0" layoutY="317.0" mnemonicParsing="false" onAction="#GameZoneBtnClicked" prefHeight="32.0" prefWidth="193.0" style="-fx-background-color: #dd7bb9;" text="Chat Room" textFill="#000000d1" />
+      <ImageView fitHeight="229.0" fitWidth="229.0" layoutX="540.0" layoutY="213.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/world.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
