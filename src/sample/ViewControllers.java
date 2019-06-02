@@ -83,6 +83,9 @@ public class ViewControllers {
     @FXML
     Button quizBtn;
 
+    @FXML
+    Button startBtn;
+
 
     @FXML
     private void registerBtnClicked() throws IOException {
@@ -188,6 +191,21 @@ public class ViewControllers {
         Stage avatarStage = new Stage();
         avatarStage.setScene(new Scene(AvatarView, 600, 400));
         avatarStage.setTitle("Welcome to MeetHub Quiz");
+        avatarStage.show();
+
+
+    }
+    @FXML
+    private void startBtnClicked() throws IOException {
+
+        Stage currentWindow = (Stage) startBtn.getScene().getWindow();
+        currentWindow.close();
+
+
+        Parent AvatarView = FXMLLoader.load(getClass().getResource("QuizQuestionView.fxml"));
+        Stage avatarStage = new Stage();
+        avatarStage.setScene(new Scene(AvatarView, 600, 400));
+        avatarStage.setTitle("Questions");
         avatarStage.show();
 
 
