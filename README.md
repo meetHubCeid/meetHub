@@ -9,7 +9,8 @@
 
 
 ## Build status
-Work in Progress...
+![build](https://img.shields.io/badge/build-passing-green.svg)
+![version](https://img.shields.io/badge/version-v1.0-green.svg)
 
 ## Code style
 
