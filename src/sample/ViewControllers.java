@@ -80,6 +80,8 @@ public class ViewControllers {
     @FXML
     Label diceB;
 
+    @FXML
+    Button quizBtn;
 
 
     @FXML
@@ -175,5 +177,21 @@ public class ViewControllers {
         diceB.setText(String.valueOf(dice.numberB));
 
     }
+    @FXML
+    private void quizBtnClicked() throws IOException {
+
+        Stage currentWindow = (Stage) GameZoneBtn.getScene().getWindow();
+        currentWindow.close();
+
+
+        Parent AvatarView = FXMLLoader.load(getClass().getResource("QuizCategorView.fxml"));
+        Stage avatarStage = new Stage();
+        avatarStage.setScene(new Scene(AvatarView, 600, 400));
+        avatarStage.setTitle("Welcome to MeetHub Quiz");
+        avatarStage.show();
+
+
+    }
+
 
 }

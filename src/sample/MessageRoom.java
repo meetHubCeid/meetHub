@@ -38,19 +38,27 @@ public class MessageRoom  extends Chatroom{
         this.receiver = receiver;
     }
 
-    public void add() {
+
+    private void selectUser() {
     }
 
-    public void returnAnswer() {
+    private void sendMessage() {
     }
 
-    public void checkPoints() {
+    private void exit() {
+        System.out.println("Do you want to end the conversation?\n");
     }
 
-    public void showMessage() {
+    private void sendFile(){
+
     }
 
-    public void deleteAll() {
+    private void selectFile(){
+
+    }
+
+    private void showMessage(){
+        System.out.println("The conversation is over\n");
     }
 
 }

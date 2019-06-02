@@ -29,4 +29,23 @@ public class VideoRoom extends Chatroom {
     public void setReceiver(User receiver) {
         this.receiver = receiver;
     }
+
+    private void selectUser(){
+
+    }
+
+    private void call(){
+
+    }
+
+    private void selectBlock(){
+
+    }
+
+    private void showMessage(){
+        System.out.println("The videocall ended\n");
+    }
+
+
+
 }

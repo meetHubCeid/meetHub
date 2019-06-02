@@ -20,4 +20,13 @@ public class Points {
     public void setPlayersTime(double playersTime) {
         this.playersTime = playersTime;
     }
+
+    private void addPoints(){
+
+    }
+
+    private void showMessage(){
+
+    }
+
 }

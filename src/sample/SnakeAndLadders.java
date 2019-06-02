@@ -14,18 +14,15 @@ public class SnakeAndLadders {
         this.player = player;
     }
 
-    public void returnUserID() {
+    private void returnUserID() {
     }
 
 
-    public void checkChoice() {
+    private void checkChoice() {
     }
 
-    public void returnAnswer() {
+    private void returnAnswer() {
     }
-
-
-
 
 
 }

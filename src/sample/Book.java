@@ -11,4 +11,8 @@ public class Book extends KioskItem {
     public void setTotalRating(double totalRating) {
         this.totalRating = totalRating;
     }
+
+    private void selectBook(){
+
+    }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Question {
-    String question;
+    public String question;
     List<String> answers = new ArrayList<String>();
     private int correctAnswer;
 

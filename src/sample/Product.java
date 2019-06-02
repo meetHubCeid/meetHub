@@ -1,9 +1,9 @@
 package sample;
 
 public class Product {
-    String title;
-    double price;
-    long sellerID;
+    public String title;
+    public double price;
+    private long sellerID;
 
     public String getTitle() {
         return title;

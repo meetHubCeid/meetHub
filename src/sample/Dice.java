@@ -17,5 +17,9 @@ public class Dice {
         numberB = r.nextInt((max - min) + 1) + min;
     }
 
+    public void doubles(){
+
+    }
+
 }
 

@@ -12,29 +12,29 @@ public class Quiz {
     List<Points> user2points = new ArrayList<Points>();
     List<Question> questions = new ArrayList<Question>();
 
-    public void selectOpponent() {
+    private void selectOpponent() {
     }
 
 
-    public void selectCateg() {
+    private void selectCateg() {
     }
 
-    public void giveRandom() {
+    private void giveRandom() {
     }
 
-    public void selectAnswer() {
+    private void selectAnswer() {
     }
 
-    public void addTime() {
+    private void addTime() {
     }
 
-    public void compare() {
+    private void compare() {
     }
 
-    public void checkFinish() {
+    private void checkFinish() {
     }
 
-    public void checkWinner() {
+    private void checkWinner() {
     }
 
 

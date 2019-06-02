@@ -2,8 +2,8 @@ package sample;
 
 public class KioskItem {
 
-    String title;
-    long id;
+    public String title;
+    public long id;
 
     Review review;
 

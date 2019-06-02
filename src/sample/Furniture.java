@@ -3,8 +3,8 @@ package sample;
 public class Furniture {
     public String name;
     private long price;
-    int size_x;
-    int size_y;
+    private int size_x;
+    private int size_y;
 
     public String getName() {
         return name;

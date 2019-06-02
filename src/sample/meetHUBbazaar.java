@@ -7,31 +7,32 @@ public class meetHUBbazaar {
 
     List<Product> productsList = new ArrayList<Product>();
 
-    public void chooseProduct() {
+    private void chooseProduct() {
     }
 
-    public void addtoBasket() {
+    private void addtoBasket() {
     }
 
     public void isLoggedIn() {
     }
 
-    public void retUserID() {
+    public boolean isLoggedIn(User user) {
+        return meetHUBWorld.loggedinUsers.contains(user);
     }
 
-    public void display() {
+    private void display() {
     }
 
-    public void checkAddress() {
+    private void checkAddress() {
     }
 
-    public void checkCard() {
+    private void checkCard() {
     }
 
-    public void proceedOrder() {
+    private void proceedOrder() {
     }
 
-    public void placeOrder() {
+    private void placeOrder() {
     }
 
 }

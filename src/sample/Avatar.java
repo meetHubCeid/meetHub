@@ -110,4 +110,11 @@ public class Avatar {
 
         Avatar avatar = new Avatar(eyesColor, hairColor, lips);
     }
+
+    public void chooseChar(){
+
+    }
+
+
+
 }
