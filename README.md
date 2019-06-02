@@ -11,11 +11,6 @@
 ## Build status
 ![build](https://img.shields.io/badge/build-passing-green.svg)
 ![version](https://img.shields.io/badge/version-v1.0-green.svg)
-
-## Code style
-
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
 ## Quick demo
 
