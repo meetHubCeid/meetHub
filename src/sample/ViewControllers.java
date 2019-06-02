@@ -153,7 +153,7 @@ public class ViewControllers {
 
         Parent AvatarView = FXMLLoader.load(getClass().getResource("GameZoneView.fxml"));
         Stage avatarStage = new Stage();
-        avatarStage.setScene(new Scene(AvatarView, 900, 600));
+        avatarStage.setScene(new Scene(AvatarView, 600, 400));
         avatarStage.setTitle("Choose your Room");
         avatarStage.show();
     }
