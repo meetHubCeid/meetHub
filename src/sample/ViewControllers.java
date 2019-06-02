@@ -135,7 +135,7 @@ public class ViewControllers {
 
         Parent AvatarView = FXMLLoader.load(getClass().getResource("meetHubWorldView.fxml"));
         Stage avatarStage = new Stage();
-        avatarStage.setScene(new Scene(AvatarView, 900, 600));
+        avatarStage.setScene(new Scene(AvatarView, 784, 526));
         avatarStage.setTitle("Choose your Room");
         avatarStage.show();
 
