@@ -16,9 +16,17 @@ Work in Progress...
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
  
-## Screenshots (Demo gif)
+## Quick demo
 
 [![](https://i.imgur.com/Lf8RN51.gif)](#)
+
+## Screenshots
+
+[![](https://i.imgur.com/MXddxak.jpg)](#)
+
+[![](https://i.imgur.com/2IAHMGK.jpg)](#)
+
+[![](https://i.imgur.com/ZAquSr9.jpg)](#)
 
 ## Tech/framework used
 
